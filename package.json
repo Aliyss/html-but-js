@@ -4,9 +4,27 @@
 	"description": "Will allow me to create HTML in JS as if I never left JS.",
 	"main": "./src/index.js",
 	"scripts": {
-		"run": "index.js"
+		"run": "index.js",
+		"build": "browserify index.js -o dist/html_but_js_but_bundeled.js"
 	},
 	"keywords": [],
 	"author": "aliyss",
-	"license": "ISC"
+	"license": "ISC",
+	"browserify": {
+		"transform": [
+			[
+				"babelify",
+				{
+					"presets": [
+						"es2015"
+					]
+				}
+			]
+		]
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-preset-es2015": "^6.24.1",
+		"babelify": "^8.0.0"
+	}
 }

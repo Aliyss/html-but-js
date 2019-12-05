@@ -1,2 +1,4 @@
 /.idea/
 /html-but-js.iml
+/node_modules/
+/package-lock.json

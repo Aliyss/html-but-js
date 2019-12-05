@@ -1,0 +1,12 @@
+{
+	"name": "html-but-js",
+	"version": "1.0.1",
+	"description": "Will allow me to create HTML in JS as if I never left JS.",
+	"main": "./src/index.js",
+	"scripts": {
+		"run": "index.js"
+	},
+	"keywords": [],
+	"author": "aliyss",
+	"license": "ISC"
+}

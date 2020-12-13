@@ -6,4 +6,4 @@ html_but_js v1.0.0 is an alternative method for Web Developers to create Website
 The other benefit of html_but_js (if used correctly, I still haven't figured it all out) is minimizing the amount of code necessary for a website. In the long-term html_but_js will successfully help apply the necessary changes with minimum effort.
 
 ## Documentation
-Check the source code of [aliyss.wtf](http://aliyss.wtf)
+Check the source code of [demo](/demo)

@@ -1,0 +1,155 @@
+/* PrismJS 1.17.1
+https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript+diff&plugins=jsonp-highlight+highlight-keywords+match-braces */
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: black;
+	background: none;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: white;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: black;
+}
+
+.token.punctuation {
+	color: black;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: darkviolet;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: darkslategrey;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: firebrick;
+}
+
+.token.keyword {
+	color: blue;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+.token.punctuation.brace-hover,
+.token.punctuation.brace-selected {
+	outline: solid 1px;
+}
+
+.rainbow-braces .token.punctuation.brace-level-1,
+.rainbow-braces .token.punctuation.brace-level-5,
+.rainbow-braces .token.punctuation.brace-level-9 {
+	color: #E50;
+	opacity: 1;
+}
+.rainbow-braces .token.punctuation.brace-level-2,
+.rainbow-braces .token.punctuation.brace-level-6,
+.rainbow-braces .token.punctuation.brace-level-10 {
+	color: darkgreen;
+	opacity: 1;
+}
+.rainbow-braces .token.punctuation.brace-level-3,
+.rainbow-braces .token.punctuation.brace-level-7,
+.rainbow-braces .token.punctuation.brace-level-11 {
+	color: #26F;
+	opacity: 1;
+}
+.rainbow-braces .token.punctuation.brace-level-4,
+.rainbow-braces .token.punctuation.brace-level-8,
+.rainbow-braces .token.punctuation.brace-level-12 {
+	color: #E0E;
+	opacity: 1;
+}
+

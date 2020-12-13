@@ -1,9 +1,4 @@
 (function(f){if(typeof exports==="object"&&typeof module!=="undefined"){module.exports=f()}else if(typeof define==="function"&&define.amd){define([],f)}else{var g;if(typeof window!=="undefined"){g=window}else if(typeof global!=="undefined"){g=global}else if(typeof self!=="undefined"){g=self}else{g=this}g.html_but_js = f()}})(function(){var define,module,exports;return (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
-
-module.exports = {
-    html_but_js: require("./src")
-};
-},{"./src":113}],2:[function(require,module,exports){
 class XMLStructure {
 
 	constructor(object, config) {
@@ -144,7 +139,7 @@ class XMLStructure {
 }
 
 module.exports = XMLStructure;
-},{}],3:[function(require,module,exports){
+},{}],2:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -242,7 +237,7 @@ module.exports = XMLStructure;
 
     module.exports = a;
     
-},{"../XMLStructure.js":2}],4:[function(require,module,exports){
+},{"../XMLStructure.js":1}],3:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -385,7 +380,7 @@ module.exports = XMLStructure;
 
     module.exports = abbr;
     
-},{"../XMLStructure.js":2}],5:[function(require,module,exports){
+},{"../XMLStructure.js":1}],4:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -580,7 +575,7 @@ module.exports = XMLStructure;
 
     module.exports = address;
     
-},{"../XMLStructure.js":2}],6:[function(require,module,exports){
+},{"../XMLStructure.js":1}],5:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -681,7 +676,7 @@ module.exports = XMLStructure;
 
     module.exports = area;
     
-},{"../XMLStructure.js":2}],7:[function(require,module,exports){
+},{"../XMLStructure.js":1}],6:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -876,7 +871,7 @@ module.exports = XMLStructure;
 
     module.exports = article;
     
-},{"../XMLStructure.js":2}],8:[function(require,module,exports){
+},{"../XMLStructure.js":1}],7:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -1071,7 +1066,7 @@ module.exports = XMLStructure;
 
     module.exports = aside;
     
-},{"../XMLStructure.js":2}],9:[function(require,module,exports){
+},{"../XMLStructure.js":1}],8:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -1171,7 +1166,7 @@ module.exports = XMLStructure;
 
     module.exports = audio;
     
-},{"../XMLStructure.js":2}],10:[function(require,module,exports){
+},{"../XMLStructure.js":1}],9:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -1314,7 +1309,7 @@ module.exports = XMLStructure;
 
     module.exports = b;
     
-},{"../XMLStructure.js":2}],11:[function(require,module,exports){
+},{"../XMLStructure.js":1}],10:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -1358,7 +1353,7 @@ module.exports = XMLStructure;
 
     module.exports = base;
     
-},{"../XMLStructure.js":2}],12:[function(require,module,exports){
+},{"../XMLStructure.js":1}],11:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -1501,7 +1496,7 @@ module.exports = XMLStructure;
 
     module.exports = bdi;
     
-},{"../XMLStructure.js":2}],13:[function(require,module,exports){
+},{"../XMLStructure.js":1}],12:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -1644,7 +1639,7 @@ module.exports = XMLStructure;
 
     module.exports = bdo;
     
-},{"../XMLStructure.js":2}],14:[function(require,module,exports){
+},{"../XMLStructure.js":1}],13:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -1840,7 +1835,7 @@ module.exports = XMLStructure;
 
     module.exports = blockquote;
     
-},{"../XMLStructure.js":2}],15:[function(require,module,exports){
+},{"../XMLStructure.js":1}],14:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -1971,7 +1966,7 @@ module.exports = XMLStructure;
 
     module.exports = body;
     
-},{"../XMLStructure.js":2}],16:[function(require,module,exports){
+},{"../XMLStructure.js":1}],15:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -2063,7 +2058,7 @@ module.exports = XMLStructure;
 
     module.exports = br;
     
-},{"../XMLStructure.js":2}],17:[function(require,module,exports){
+},{"../XMLStructure.js":1}],16:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -2217,7 +2212,7 @@ module.exports = XMLStructure;
 
     module.exports = button;
     
-},{"../XMLStructure.js":2}],18:[function(require,module,exports){
+},{"../XMLStructure.js":1}],17:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -2311,7 +2306,7 @@ module.exports = XMLStructure;
 
     module.exports = canvas;
     
-},{"../XMLStructure.js":2}],19:[function(require,module,exports){
+},{"../XMLStructure.js":1}],18:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -2431,7 +2426,7 @@ module.exports = XMLStructure;
 
     module.exports = caption;
     
-},{"../XMLStructure.js":2}],20:[function(require,module,exports){
+},{"../XMLStructure.js":1}],19:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -2574,7 +2569,7 @@ module.exports = XMLStructure;
 
     module.exports = cite;
     
-},{"../XMLStructure.js":2}],21:[function(require,module,exports){
+},{"../XMLStructure.js":1}],20:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -2717,7 +2712,7 @@ module.exports = XMLStructure;
 
     module.exports = code;
     
-},{"../XMLStructure.js":2}],22:[function(require,module,exports){
+},{"../XMLStructure.js":1}],21:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -2760,7 +2755,7 @@ module.exports = XMLStructure;
 
     module.exports = col;
     
-},{"../XMLStructure.js":2}],23:[function(require,module,exports){
+},{"../XMLStructure.js":1}],22:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -2805,7 +2800,7 @@ module.exports = XMLStructure;
 
     module.exports = colgroup;
     
-},{"../XMLStructure.js":2}],24:[function(require,module,exports){
+},{"../XMLStructure.js":1}],23:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -2949,7 +2944,7 @@ module.exports = XMLStructure;
 
     module.exports = data;
     
-},{"../XMLStructure.js":2}],25:[function(require,module,exports){
+},{"../XMLStructure.js":1}],24:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -3093,7 +3088,7 @@ module.exports = XMLStructure;
 
     module.exports = datalist;
     
-},{"../XMLStructure.js":2}],26:[function(require,module,exports){
+},{"../XMLStructure.js":1}],25:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -3213,7 +3208,7 @@ module.exports = XMLStructure;
 
     module.exports = dd;
     
-},{"../XMLStructure.js":2}],27:[function(require,module,exports){
+},{"../XMLStructure.js":1}],26:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -3307,7 +3302,7 @@ module.exports = XMLStructure;
 
     module.exports = del;
     
-},{"../XMLStructure.js":2}],28:[function(require,module,exports){
+},{"../XMLStructure.js":1}],27:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -3450,7 +3445,7 @@ module.exports = XMLStructure;
 
     module.exports = dfn;
     
-},{"../XMLStructure.js":2}],29:[function(require,module,exports){
+},{"../XMLStructure.js":1}],28:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -3645,7 +3640,7 @@ module.exports = XMLStructure;
 
     module.exports = div;
     
-},{"../XMLStructure.js":2}],30:[function(require,module,exports){
+},{"../XMLStructure.js":1}],29:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -3766,7 +3761,7 @@ module.exports = XMLStructure;
 
     module.exports = dl;
     
-},{"../XMLStructure.js":2}],31:[function(require,module,exports){
+},{"../XMLStructure.js":1}],30:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -3886,7 +3881,7 @@ module.exports = XMLStructure;
 
     module.exports = dt;
     
-},{"../XMLStructure.js":2}],32:[function(require,module,exports){
+},{"../XMLStructure.js":1}],31:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -4029,7 +4024,7 @@ module.exports = XMLStructure;
 
     module.exports = em;
     
-},{"../XMLStructure.js":2}],33:[function(require,module,exports){
+},{"../XMLStructure.js":1}],32:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -4125,7 +4120,7 @@ module.exports = XMLStructure;
 
     module.exports = embed;
     
-},{"../XMLStructure.js":2}],34:[function(require,module,exports){
+},{"../XMLStructure.js":1}],33:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -4324,7 +4319,7 @@ module.exports = XMLStructure;
 
     module.exports = fieldset;
     
-},{"../XMLStructure.js":2}],35:[function(require,module,exports){
+},{"../XMLStructure.js":1}],34:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -4444,7 +4439,7 @@ module.exports = XMLStructure;
 
     module.exports = figcaption;
     
-},{"../XMLStructure.js":2}],36:[function(require,module,exports){
+},{"../XMLStructure.js":1}],35:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -4640,7 +4635,7 @@ module.exports = XMLStructure;
 
     module.exports = figure;
     
-},{"../XMLStructure.js":2}],37:[function(require,module,exports){
+},{"../XMLStructure.js":1}],36:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -4835,7 +4830,7 @@ module.exports = XMLStructure;
 
     module.exports = footer;
     
-},{"../XMLStructure.js":2}],38:[function(require,module,exports){
+},{"../XMLStructure.js":1}],37:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -5038,7 +5033,7 @@ module.exports = XMLStructure;
 
     module.exports = form;
     
-},{"../XMLStructure.js":2}],39:[function(require,module,exports){
+},{"../XMLStructure.js":1}],38:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -5208,7 +5203,7 @@ module.exports = XMLStructure;
 
     module.exports = h1;
     
-},{"../XMLStructure.js":2}],40:[function(require,module,exports){
+},{"../XMLStructure.js":1}],39:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -5378,7 +5373,7 @@ module.exports = XMLStructure;
 
     module.exports = h2;
     
-},{"../XMLStructure.js":2}],41:[function(require,module,exports){
+},{"../XMLStructure.js":1}],40:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -5548,7 +5543,7 @@ module.exports = XMLStructure;
 
     module.exports = h3;
     
-},{"../XMLStructure.js":2}],42:[function(require,module,exports){
+},{"../XMLStructure.js":1}],41:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -5718,7 +5713,7 @@ module.exports = XMLStructure;
 
     module.exports = h4;
     
-},{"../XMLStructure.js":2}],43:[function(require,module,exports){
+},{"../XMLStructure.js":1}],42:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -5888,7 +5883,7 @@ module.exports = XMLStructure;
 
     module.exports = h5;
     
-},{"../XMLStructure.js":2}],44:[function(require,module,exports){
+},{"../XMLStructure.js":1}],43:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -6058,7 +6053,7 @@ module.exports = XMLStructure;
 
     module.exports = h6;
     
-},{"../XMLStructure.js":2}],45:[function(require,module,exports){
+},{"../XMLStructure.js":1}],44:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -6106,7 +6101,7 @@ module.exports = XMLStructure;
 
     module.exports = head;
     
-},{"../XMLStructure.js":2}],46:[function(require,module,exports){
+},{"../XMLStructure.js":1}],45:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -6301,7 +6296,7 @@ module.exports = XMLStructure;
 
     module.exports = header;
     
-},{"../XMLStructure.js":2}],47:[function(require,module,exports){
+},{"../XMLStructure.js":1}],46:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -6419,7 +6414,7 @@ module.exports = XMLStructure;
 
     module.exports = hr;
     
-},{"../XMLStructure.js":2}],48:[function(require,module,exports){
+},{"../XMLStructure.js":1}],47:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -6462,7 +6457,7 @@ module.exports = XMLStructure;
 
     module.exports = html;
     
-},{"../XMLStructure.js":2}],49:[function(require,module,exports){
+},{"../XMLStructure.js":1}],48:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -6605,7 +6600,7 @@ module.exports = XMLStructure;
 
     module.exports = i;
     
-},{"../XMLStructure.js":2}],50:[function(require,module,exports){
+},{"../XMLStructure.js":1}],49:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -6703,7 +6698,7 @@ module.exports = XMLStructure;
 
     module.exports = iframe;
     
-},{"../XMLStructure.js":2}],51:[function(require,module,exports){
+},{"../XMLStructure.js":1}],50:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -6802,7 +6797,7 @@ module.exports = XMLStructure;
 
     module.exports = img;
     
-},{"../XMLStructure.js":2}],52:[function(require,module,exports){
+},{"../XMLStructure.js":1}],51:[function(require,module,exports){
 module.exports = {
     a: require("./a.js"),
     abbr: require("./abbr.js"),
@@ -6913,7 +6908,7 @@ module.exports = {
     video: require("./video.js"),
     wbr: require("./wbr.js"),
 };
-},{"./a.js":3,"./abbr.js":4,"./address.js":5,"./area.js":6,"./article.js":7,"./aside.js":8,"./audio.js":9,"./b.js":10,"./base.js":11,"./bdi.js":12,"./bdo.js":13,"./blockquote.js":14,"./body.js":15,"./br.js":16,"./button.js":17,"./canvas.js":18,"./caption.js":19,"./cite.js":20,"./code.js":21,"./col.js":22,"./colgroup.js":23,"./data.js":24,"./datalist.js":25,"./dd.js":26,"./del.js":27,"./dfn.js":28,"./div.js":29,"./dl.js":30,"./dt.js":31,"./em.js":32,"./embed.js":33,"./fieldset.js":34,"./figcaption.js":35,"./figure.js":36,"./footer.js":37,"./form.js":38,"./h1.js":39,"./h2.js":40,"./h3.js":41,"./h4.js":42,"./h5.js":43,"./h6.js":44,"./head.js":45,"./header.js":46,"./hr.js":47,"./html.js":48,"./i.js":49,"./iframe.js":50,"./img.js":51,"./input.js":53,"./ins.js":54,"./kbd.js":55,"./keygen.js":56,"./label.js":57,"./legend.js":58,"./li.js":59,"./link.js":60,"./main.js":61,"./map.js":62,"./mark.js":63,"./meta.js":64,"./meter.js":65,"./nav.js":66,"./noscript.js":67,"./object.js":68,"./ol.js":69,"./optgroup.js":70,"./option.js":71,"./output.js":72,"./p.js":73,"./param.js":74,"./pre.js":75,"./progress.js":76,"./q.js":77,"./rb.js":78,"./rp.js":79,"./rt.js":80,"./rtc.js":81,"./ruby.js":82,"./s.js":83,"./samp.js":84,"./script.js":85,"./section.js":86,"./select.js":87,"./small.js":88,"./source.js":89,"./span.js":90,"./strong.js":91,"./style.js":92,"./sub.js":93,"./sup.js":94,"./table.js":95,"./tbody.js":96,"./td.js":97,"./template.js":98,"./textarea.js":99,"./tfoot.js":100,"./th.js":101,"./thead.js":102,"./time.js":103,"./title.js":104,"./tr.js":105,"./track.js":106,"./u.js":107,"./ul.js":108,"./variable.js":109,"./video.js":110,"./wbr.js":111}],53:[function(require,module,exports){
+},{"./a.js":2,"./abbr.js":3,"./address.js":4,"./area.js":5,"./article.js":6,"./aside.js":7,"./audio.js":8,"./b.js":9,"./base.js":10,"./bdi.js":11,"./bdo.js":12,"./blockquote.js":13,"./body.js":14,"./br.js":15,"./button.js":16,"./canvas.js":17,"./caption.js":18,"./cite.js":19,"./code.js":20,"./col.js":21,"./colgroup.js":22,"./data.js":23,"./datalist.js":24,"./dd.js":25,"./del.js":26,"./dfn.js":27,"./div.js":28,"./dl.js":29,"./dt.js":30,"./em.js":31,"./embed.js":32,"./fieldset.js":33,"./figcaption.js":34,"./figure.js":35,"./footer.js":36,"./form.js":37,"./h1.js":38,"./h2.js":39,"./h3.js":40,"./h4.js":41,"./h5.js":42,"./h6.js":43,"./head.js":44,"./header.js":45,"./hr.js":46,"./html.js":47,"./i.js":48,"./iframe.js":49,"./img.js":50,"./input.js":52,"./ins.js":53,"./kbd.js":54,"./keygen.js":55,"./label.js":56,"./legend.js":57,"./li.js":58,"./link.js":59,"./main.js":60,"./map.js":61,"./mark.js":62,"./meta.js":63,"./meter.js":64,"./nav.js":65,"./noscript.js":66,"./object.js":67,"./ol.js":68,"./optgroup.js":69,"./option.js":70,"./output.js":71,"./p.js":72,"./param.js":73,"./pre.js":74,"./progress.js":75,"./q.js":76,"./rb.js":77,"./rp.js":78,"./rt.js":79,"./rtc.js":80,"./ruby.js":81,"./s.js":82,"./samp.js":83,"./script.js":84,"./section.js":85,"./select.js":86,"./small.js":87,"./source.js":88,"./span.js":89,"./strong.js":90,"./style.js":91,"./sub.js":92,"./sup.js":93,"./table.js":94,"./tbody.js":95,"./td.js":96,"./template.js":97,"./textarea.js":98,"./tfoot.js":99,"./th.js":100,"./thead.js":101,"./time.js":102,"./title.js":103,"./tr.js":104,"./track.js":105,"./u.js":106,"./ul.js":107,"./variable.js":108,"./video.js":109,"./wbr.js":110}],52:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -7036,7 +7031,7 @@ module.exports = {
 
     module.exports = input;
     
-},{"../XMLStructure.js":2}],54:[function(require,module,exports){
+},{"../XMLStructure.js":1}],53:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -7130,7 +7125,7 @@ module.exports = {
 
     module.exports = ins;
     
-},{"../XMLStructure.js":2}],55:[function(require,module,exports){
+},{"../XMLStructure.js":1}],54:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -7273,7 +7268,7 @@ module.exports = {
 
     module.exports = kbd;
     
-},{"../XMLStructure.js":2}],56:[function(require,module,exports){
+},{"../XMLStructure.js":1}],55:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -7371,7 +7366,7 @@ module.exports = {
 
     module.exports = keygen;
     
-},{"../XMLStructure.js":2}],57:[function(require,module,exports){
+},{"../XMLStructure.js":1}],56:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -7516,7 +7511,7 @@ module.exports = {
 
     module.exports = label;
     
-},{"../XMLStructure.js":2}],58:[function(require,module,exports){
+},{"../XMLStructure.js":1}],57:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -7610,7 +7605,7 @@ module.exports = {
 
     module.exports = legend;
     
-},{"../XMLStructure.js":2}],59:[function(require,module,exports){
+},{"../XMLStructure.js":1}],58:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -7732,7 +7727,7 @@ module.exports = {
 
     module.exports = li;
     
-},{"../XMLStructure.js":2}],60:[function(require,module,exports){
+},{"../XMLStructure.js":1}],59:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -7835,7 +7830,7 @@ module.exports = {
 
     module.exports = link;
     
-},{"../XMLStructure.js":2}],61:[function(require,module,exports){
+},{"../XMLStructure.js":1}],60:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -8030,7 +8025,7 @@ module.exports = {
 
     module.exports = main;
     
-},{"../XMLStructure.js":2}],62:[function(require,module,exports){
+},{"../XMLStructure.js":1}],61:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -8123,7 +8118,7 @@ module.exports = {
 
     module.exports = map;
     
-},{"../XMLStructure.js":2}],63:[function(require,module,exports){
+},{"../XMLStructure.js":1}],62:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -8266,7 +8261,7 @@ module.exports = {
 
     module.exports = mark;
     
-},{"../XMLStructure.js":2}],64:[function(require,module,exports){
+},{"../XMLStructure.js":1}],63:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -8366,7 +8361,7 @@ module.exports = {
 
     module.exports = meta;
     
-},{"../XMLStructure.js":2}],65:[function(require,module,exports){
+},{"../XMLStructure.js":1}],64:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -8515,7 +8510,7 @@ module.exports = {
 
     module.exports = meter;
     
-},{"../XMLStructure.js":2}],66:[function(require,module,exports){
+},{"../XMLStructure.js":1}],65:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -8710,7 +8705,7 @@ module.exports = {
 
     module.exports = nav;
     
-},{"../XMLStructure.js":2}],67:[function(require,module,exports){
+},{"../XMLStructure.js":1}],66:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -8910,7 +8905,7 @@ module.exports = {
 
     module.exports = noscript;
     
-},{"../XMLStructure.js":2}],68:[function(require,module,exports){
+},{"../XMLStructure.js":1}],67:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -9010,7 +9005,7 @@ module.exports = {
 
     module.exports = object;
     
-},{"../XMLStructure.js":2}],69:[function(require,module,exports){
+},{"../XMLStructure.js":1}],68:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -9133,7 +9128,7 @@ module.exports = {
 
     module.exports = ol;
     
-},{"../XMLStructure.js":2}],70:[function(require,module,exports){
+},{"../XMLStructure.js":1}],69:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -9179,7 +9174,7 @@ module.exports = {
 
     module.exports = optgroup;
     
-},{"../XMLStructure.js":2}],71:[function(require,module,exports){
+},{"../XMLStructure.js":1}],70:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -9227,7 +9222,7 @@ module.exports = {
 
     module.exports = option;
     
-},{"../XMLStructure.js":2}],72:[function(require,module,exports){
+},{"../XMLStructure.js":1}],71:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -9373,7 +9368,7 @@ module.exports = {
 
     module.exports = output;
     
-},{"../XMLStructure.js":2}],73:[function(require,module,exports){
+},{"../XMLStructure.js":1}],72:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -9543,7 +9538,7 @@ module.exports = {
 
     module.exports = p;
     
-},{"../XMLStructure.js":2}],74:[function(require,module,exports){
+},{"../XMLStructure.js":1}],73:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -9587,7 +9582,7 @@ module.exports = {
 
     module.exports = param;
     
-},{"../XMLStructure.js":2}],75:[function(require,module,exports){
+},{"../XMLStructure.js":1}],74:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -9757,7 +9752,7 @@ module.exports = {
 
     module.exports = pre;
     
-},{"../XMLStructure.js":2}],76:[function(require,module,exports){
+},{"../XMLStructure.js":1}],75:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -9902,7 +9897,7 @@ module.exports = {
 
     module.exports = progress;
     
-},{"../XMLStructure.js":2}],77:[function(require,module,exports){
+},{"../XMLStructure.js":1}],76:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -10046,7 +10041,7 @@ module.exports = {
 
     module.exports = q;
     
-},{"../XMLStructure.js":2}],78:[function(require,module,exports){
+},{"../XMLStructure.js":1}],77:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -10140,7 +10135,7 @@ module.exports = {
 
     module.exports = rb;
     
-},{"../XMLStructure.js":2}],79:[function(require,module,exports){
+},{"../XMLStructure.js":1}],78:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -10234,7 +10229,7 @@ module.exports = {
 
     module.exports = rp;
     
-},{"../XMLStructure.js":2}],80:[function(require,module,exports){
+},{"../XMLStructure.js":1}],79:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -10329,7 +10324,7 @@ module.exports = {
 
     module.exports = rt;
     
-},{"../XMLStructure.js":2}],81:[function(require,module,exports){
+},{"../XMLStructure.js":1}],80:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -10423,7 +10418,7 @@ module.exports = {
 
     module.exports = rtc;
     
-},{"../XMLStructure.js":2}],82:[function(require,module,exports){
+},{"../XMLStructure.js":1}],81:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -10570,7 +10565,7 @@ module.exports = {
 
     module.exports = ruby;
     
-},{"../XMLStructure.js":2}],83:[function(require,module,exports){
+},{"../XMLStructure.js":1}],82:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -10713,7 +10708,7 @@ module.exports = {
 
     module.exports = s;
     
-},{"../XMLStructure.js":2}],84:[function(require,module,exports){
+},{"../XMLStructure.js":1}],83:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -10856,7 +10851,7 @@ module.exports = {
 
     module.exports = samp;
     
-},{"../XMLStructure.js":2}],85:[function(require,module,exports){
+},{"../XMLStructure.js":1}],84:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -10956,7 +10951,7 @@ module.exports = {
 
     module.exports = script;
     
-},{"../XMLStructure.js":2}],86:[function(require,module,exports){
+},{"../XMLStructure.js":1}],85:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -11151,7 +11146,7 @@ module.exports = {
 
     module.exports = section;
     
-},{"../XMLStructure.js":2}],87:[function(require,module,exports){
+},{"../XMLStructure.js":1}],86:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -11250,7 +11245,7 @@ module.exports = {
 
     module.exports = select;
     
-},{"../XMLStructure.js":2}],88:[function(require,module,exports){
+},{"../XMLStructure.js":1}],87:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -11393,7 +11388,7 @@ module.exports = {
 
     module.exports = small;
     
-},{"../XMLStructure.js":2}],89:[function(require,module,exports){
+},{"../XMLStructure.js":1}],88:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -11439,7 +11434,7 @@ module.exports = {
 
     module.exports = source;
     
-},{"../XMLStructure.js":2}],90:[function(require,module,exports){
+},{"../XMLStructure.js":1}],89:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -11582,7 +11577,7 @@ module.exports = {
 
     module.exports = span;
     
-},{"../XMLStructure.js":2}],91:[function(require,module,exports){
+},{"../XMLStructure.js":1}],90:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -11725,7 +11720,7 @@ module.exports = {
 
     module.exports = strong;
     
-},{"../XMLStructure.js":2}],92:[function(require,module,exports){
+},{"../XMLStructure.js":1}],91:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -11847,7 +11842,7 @@ module.exports = {
 
     module.exports = style;
     
-},{"../XMLStructure.js":2}],93:[function(require,module,exports){
+},{"../XMLStructure.js":1}],92:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -11990,7 +11985,7 @@ module.exports = {
 
     module.exports = sub;
     
-},{"../XMLStructure.js":2}],94:[function(require,module,exports){
+},{"../XMLStructure.js":1}],93:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -12133,7 +12128,7 @@ module.exports = {
 
     module.exports = sup;
     
-},{"../XMLStructure.js":2}],95:[function(require,module,exports){
+},{"../XMLStructure.js":1}],94:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -12259,7 +12254,7 @@ module.exports = {
 
     module.exports = table;
     
-},{"../XMLStructure.js":2}],96:[function(require,module,exports){
+},{"../XMLStructure.js":1}],95:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -12303,7 +12298,7 @@ module.exports = {
 
     module.exports = tbody;
     
-},{"../XMLStructure.js":2}],97:[function(require,module,exports){
+},{"../XMLStructure.js":1}],96:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -12426,7 +12421,7 @@ module.exports = {
 
     module.exports = td;
     
-},{"../XMLStructure.js":2}],98:[function(require,module,exports){
+},{"../XMLStructure.js":1}],97:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -12627,7 +12622,7 @@ module.exports = {
 
     module.exports = template;
     
-},{"../XMLStructure.js":2}],99:[function(require,module,exports){
+},{"../XMLStructure.js":1}],98:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -12732,7 +12727,7 @@ module.exports = {
 
     module.exports = textarea;
     
-},{"../XMLStructure.js":2}],100:[function(require,module,exports){
+},{"../XMLStructure.js":1}],99:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -12776,7 +12771,7 @@ module.exports = {
 
     module.exports = tfoot;
     
-},{"../XMLStructure.js":2}],101:[function(require,module,exports){
+},{"../XMLStructure.js":1}],100:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -12901,7 +12896,7 @@ module.exports = {
 
     module.exports = th;
     
-},{"../XMLStructure.js":2}],102:[function(require,module,exports){
+},{"../XMLStructure.js":1}],101:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -12945,7 +12940,7 @@ module.exports = {
 
     module.exports = thead;
     
-},{"../XMLStructure.js":2}],103:[function(require,module,exports){
+},{"../XMLStructure.js":1}],102:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -13089,7 +13084,7 @@ module.exports = {
 
     module.exports = time;
     
-},{"../XMLStructure.js":2}],104:[function(require,module,exports){
+},{"../XMLStructure.js":1}],103:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -13130,7 +13125,7 @@ module.exports = {
 
     module.exports = title;
     
-},{"../XMLStructure.js":2}],105:[function(require,module,exports){
+},{"../XMLStructure.js":1}],104:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -13178,7 +13173,7 @@ module.exports = {
 
     module.exports = tr;
     
-},{"../XMLStructure.js":2}],106:[function(require,module,exports){
+},{"../XMLStructure.js":1}],105:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -13226,7 +13221,7 @@ module.exports = {
 
     module.exports = track;
     
-},{"../XMLStructure.js":2}],107:[function(require,module,exports){
+},{"../XMLStructure.js":1}],106:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -13369,7 +13364,7 @@ module.exports = {
 
     module.exports = u;
     
-},{"../XMLStructure.js":2}],108:[function(require,module,exports){
+},{"../XMLStructure.js":1}],107:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -13489,7 +13484,7 @@ module.exports = {
 
     module.exports = ul;
     
-},{"../XMLStructure.js":2}],109:[function(require,module,exports){
+},{"../XMLStructure.js":1}],108:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -13632,7 +13627,7 @@ module.exports = {
 
     module.exports = variable;
     
-},{"../XMLStructure.js":2}],110:[function(require,module,exports){
+},{"../XMLStructure.js":1}],109:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -13735,7 +13730,7 @@ module.exports = {
 
     module.exports = video;
     
-},{"../XMLStructure.js":2}],111:[function(require,module,exports){
+},{"../XMLStructure.js":1}],110:[function(require,module,exports){
 
     const XMLStructure = require("../XMLStructure.js");
 
@@ -13827,13 +13822,13 @@ module.exports = {
 
     module.exports = wbr;
     
-},{"../XMLStructure.js":2}],112:[function(require,module,exports){
+},{"../XMLStructure.js":1}],111:[function(require,module,exports){
 module.exports = {
     elements: require("./elements")
 };
-},{"./elements":52}],113:[function(require,module,exports){
+},{"./elements":51}],112:[function(require,module,exports){
 module.exports = {
   html: require("./html")
 };
-},{"./html":112}]},{},[1])(1)
+},{"./html":111}]},{},[112])(112)
 });
